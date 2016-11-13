@@ -1,0 +1,16 @@
+RewriteEngine On
+
+##
+#	@from 周品宏 www.zhihu.com	
+#	@mail 419250389@qq.com
+# 	@author 白衣若兮
+##
+
+
+RewriteRule ^mall/$ index.php[NC,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -l
+RewriteRule . - [NC,L]
+RewriteRule . index.php [NC,L]
