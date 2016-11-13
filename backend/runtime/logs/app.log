@@ -1793,3 +1793,259 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1479011890.944
     'REQUEST_TIME' => 1479011890
 ]
+2016-11-13 12:49:32 [127.0.0.1][1][a4mdj7t2fh6sr5vssk25umk7p2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "statics/js/jquerty-ui.js".' in F:\work\github\blog\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\work\github\blog\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('statics/js/jque...', Array)
+#1 F:\work\github\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\work\github\blog\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in F:\work\github\blog\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 F:\work\github\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\work\github\blog\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-13 12:49:32 [127.0.0.1][1][a4mdj7t2fh6sr5vssk25umk7p2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1e1dcef62885c59be419c4b819e4691557c6dfafb477f5d6c478b7b9fb242c2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"d4eGkphNw_5Mb1QFLpFFQrobmGXHzOH_\";}'
+    'advanced-backend' => 'a4mdj7t2fh6sr5vssk25umk7p2'
+    '_identity-backend' => 'e7724ddca2129d66a6b4c8ac3738518969efc1bd04fe6bb8c187c53795155b45a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FzxXZvcJwgQ_JE_Jk_86RcVv9LVl7Sxn\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend.test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://backend.test.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1e1dcef62885c59be419c4b819e4691557c6dfafb477f5d6c478b7b9fb242c2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22d4eGkphNw_5Mb1QFLpFFQrobmGXHzOH_%22%3B%7D; advanced-backend=a4mdj7t2fh6sr5vssk25umk7p2; _identity-backend=e7724ddca2129d66a6b4c8ac3738518969efc1bd04fe6bb8c187c53795155b45a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FzxXZvcJwgQ_JE_Jk_86RcVv9LVl7Sxn%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\wamp\\wamp64\\bin\\php\\php5.6.25;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at backend.test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'backend.test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/work/github/blog/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/work/github/blog/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'F:/work/github/blog/backend/web/index.php'
+    'REMOTE_PORT' => '50640'
+    'REDIRECT_URL' => '/statics/js/jquerty-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/statics/js/jquerty-ui.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479012572.827
+    'REQUEST_TIME' => 1479012572
+]
+2016-11-13 12:49:35 [127.0.0.1][1][a4mdj7t2fh6sr5vssk25umk7p2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "statics/js/jquerty-ui.js".' in F:\work\github\blog\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\work\github\blog\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('statics/js/jque...', Array)
+#1 F:\work\github\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\work\github\blog\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in F:\work\github\blog\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 F:\work\github\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\work\github\blog\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-13 12:49:35 [127.0.0.1][1][a4mdj7t2fh6sr5vssk25umk7p2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1e1dcef62885c59be419c4b819e4691557c6dfafb477f5d6c478b7b9fb242c2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"d4eGkphNw_5Mb1QFLpFFQrobmGXHzOH_\";}'
+    'advanced-backend' => 'a4mdj7t2fh6sr5vssk25umk7p2'
+    '_identity-backend' => 'e7724ddca2129d66a6b4c8ac3738518969efc1bd04fe6bb8c187c53795155b45a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FzxXZvcJwgQ_JE_Jk_86RcVv9LVl7Sxn\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend.test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://backend.test.com/post/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1e1dcef62885c59be419c4b819e4691557c6dfafb477f5d6c478b7b9fb242c2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22d4eGkphNw_5Mb1QFLpFFQrobmGXHzOH_%22%3B%7D; advanced-backend=a4mdj7t2fh6sr5vssk25umk7p2; _identity-backend=e7724ddca2129d66a6b4c8ac3738518969efc1bd04fe6bb8c187c53795155b45a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FzxXZvcJwgQ_JE_Jk_86RcVv9LVl7Sxn%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\wamp\\wamp64\\bin\\php\\php5.6.25;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at backend.test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'backend.test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/work/github/blog/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/work/github/blog/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'F:/work/github/blog/backend/web/index.php'
+    'REMOTE_PORT' => '50639'
+    'REDIRECT_URL' => '/statics/js/jquerty-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/statics/js/jquerty-ui.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479012575.649
+    'REQUEST_TIME' => 1479012575
+]
+2016-11-13 12:49:37 [127.0.0.1][1][a4mdj7t2fh6sr5vssk25umk7p2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "statics/js/jquerty-ui.js".' in F:\work\github\blog\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\work\github\blog\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('statics/js/jque...', Array)
+#1 F:\work\github\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\work\github\blog\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in F:\work\github\blog\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 F:\work\github\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\work\github\blog\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-13 12:49:37 [127.0.0.1][1][a4mdj7t2fh6sr5vssk25umk7p2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1e1dcef62885c59be419c4b819e4691557c6dfafb477f5d6c478b7b9fb242c2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"d4eGkphNw_5Mb1QFLpFFQrobmGXHzOH_\";}'
+    'advanced-backend' => 'a4mdj7t2fh6sr5vssk25umk7p2'
+    '_identity-backend' => 'e7724ddca2129d66a6b4c8ac3738518969efc1bd04fe6bb8c187c53795155b45a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FzxXZvcJwgQ_JE_Jk_86RcVv9LVl7Sxn\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend.test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://backend.test.com/cats/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1e1dcef62885c59be419c4b819e4691557c6dfafb477f5d6c478b7b9fb242c2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22d4eGkphNw_5Mb1QFLpFFQrobmGXHzOH_%22%3B%7D; advanced-backend=a4mdj7t2fh6sr5vssk25umk7p2; _identity-backend=e7724ddca2129d66a6b4c8ac3738518969efc1bd04fe6bb8c187c53795155b45a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FzxXZvcJwgQ_JE_Jk_86RcVv9LVl7Sxn%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\wamp\\wamp64\\bin\\php\\php5.6.25;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at backend.test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'backend.test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/work/github/blog/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/work/github/blog/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'F:/work/github/blog/backend/web/index.php'
+    'REMOTE_PORT' => '50639'
+    'REDIRECT_URL' => '/statics/js/jquerty-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/statics/js/jquerty-ui.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479012577.502
+    'REQUEST_TIME' => 1479012577
+]
+2016-11-13 12:49:38 [127.0.0.1][1][a4mdj7t2fh6sr5vssk25umk7p2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "statics/js/jquerty-ui.js".' in F:\work\github\blog\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\work\github\blog\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('statics/js/jque...', Array)
+#1 F:\work\github\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\work\github\blog\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in F:\work\github\blog\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 F:\work\github\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\work\github\blog\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-13 12:49:38 [127.0.0.1][1][a4mdj7t2fh6sr5vssk25umk7p2][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1e1dcef62885c59be419c4b819e4691557c6dfafb477f5d6c478b7b9fb242c2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"d4eGkphNw_5Mb1QFLpFFQrobmGXHzOH_\";}'
+    'advanced-backend' => 'a4mdj7t2fh6sr5vssk25umk7p2'
+    '_identity-backend' => 'e7724ddca2129d66a6b4c8ac3738518969efc1bd04fe6bb8c187c53795155b45a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FzxXZvcJwgQ_JE_Jk_86RcVv9LVl7Sxn\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'backend.test.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://backend.test.com/tags/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1e1dcef62885c59be419c4b819e4691557c6dfafb477f5d6c478b7b9fb242c2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22d4eGkphNw_5Mb1QFLpFFQrobmGXHzOH_%22%3B%7D; advanced-backend=a4mdj7t2fh6sr5vssk25umk7p2; _identity-backend=e7724ddca2129d66a6b4c8ac3738518969efc1bd04fe6bb8c187c53795155b45a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FzxXZvcJwgQ_JE_Jk_86RcVv9LVl7Sxn%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\wamp\\wamp64\\bin\\php\\php5.6.25;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at backend.test.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'backend.test.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/work/github/blog/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/work/github/blog/backend/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'F:/work/github/blog/backend/web/index.php'
+    'REMOTE_PORT' => '50641'
+    'REDIRECT_URL' => '/statics/js/jquerty-ui.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/statics/js/jquerty-ui.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479012578.665
+    'REQUEST_TIME' => 1479012578
+]
